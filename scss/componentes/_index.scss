@@ -1,0 +1,10 @@
+.paella {
+	width: 100%; 
+	height: 110vh; 
+} 
+
+@media only screen and (max-width: 600px) {
+    .paella {
+        width: 100%; 
+        height: 70vh; 
+    } }

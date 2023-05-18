@@ -1,0 +1,52 @@
+header, main {
+	color: $color-negro; 
+	font-family: $font-ubuntu; }
+nav ,a {
+	font-size: 30px; 
+	list-style: none; 
+	padding: 10px; }
+	nav {
+		a {
+		color: $color-negro; 
+		text-decoration: none; 
+		font-size: 35px; 
+		padding: 15px;
+
+		&:hover {
+			font-size: 40px;
+			text-decoration: line-through;
+			text-decoration-color: $color-verde;
+		}
+		}
+	}
+
+    ul 
+		li{
+			list-style: none; 
+        }
+.buton-nav {
+	background-color: $color-fondo; }
+.nav-color{ 
+	background-color: $color-fondo;} 
+.body-var {
+	padding: 20px; 
+	background-color: $color-fondo; }
+header {
+    .nav1 {
+        ul {
+            @include flex-center;; 
+            padding: 10px;}}
+        }
+			@media only screen and (max-width: 600px) {
+
+				.nav1  {
+					display: none;
+				}
+				}
+			@media only screen and (min-width: 600px) {
+					header .nav1{
+						@include flex-center;;
+						}
+							.nav2{
+								display: none;
+						}}

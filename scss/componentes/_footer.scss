@@ -1,0 +1,11 @@
+
+footer {
+	p{ 
+		font-family: $font-satisfy; 
+		font-size: 13px; 
+		text-align: right; }}
+	.foo {
+		@include flex-center;} 
+.instagram a, .ubi,a {
+	font-size: 40px; 
+	color: $color-negro; }

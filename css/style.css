@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  font-family: "Satisfy", cursive;
+  font-size: 13px;
+  text-align: right;
+}
+
+.foo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram a, .ubi, a {
+  font-size: 40px;
+  color: #000;
+}
+
+header, main {
+  color: #000;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav, a {
+  font-size: 30px;
+  list-style: none;
+  padding: 10px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 15px;
+}
+nav a:hover {
+  font-size: 40px;
+  text-decoration: line-through;
+  text-decoration-color: #2ba048;
+}
+
+ul li {
+  list-style: none;
+}
+
+.buton-nav {
+  background-color: #f6f2f2;
+}
+
+.nav-color {
+  background-color: #f6f2f2;
+}
+
+.body-var {
+  padding: 20px;
+  background-color: #f6f2f2;
+}
+
+header .nav1 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  header .nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav2 {
+    display: none;
+  }
+}
+.paella {
+  width: 100%;
+  height: 110vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .paella {
+    width: 100%;
+    height: 70vh;
+  }
+}
+body {
+  background-color: #f6f2f2;
+}
+
+h1 {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  padding: 10px;
+  display: grid;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 50%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.boton-carta {
+  background-color: #2ba048;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* contacto y unete */
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario iframe {
+  padding: 10px;
+  margin: 20px;
+}
+
+.formulario form {
+  display: inline-block;
+  width: 440px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+  justify-items: center;
+  font-size: 20px;
+}
+
+form input, textarea {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  order: 2;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  width: 90%;
+  background: none;
+  border-bottom: 1.5px solid #2ba048;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+main button {
+  padding: 10px;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid;
+}
+
+.fotos2 {
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid: gap 10px;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+}
+
+.fotos2 > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px #000;
+}
+
+@media only screen and (max-width: 576px) {
+  .nav1 {
+    display: none;
+  }
+  .nav2 ul li {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .paella {
+    width: 100%;
+    height: 50vh;
+  }
+  .formulario {
+    display: inline-block;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 576px) {
+  header nav {
+    justify-content: center;
+  }
+  nav a {
+    font-size: 35px;
+    padding: 15px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .formulario {
+    display: flex;
+  }
+  .form3 {
+    width: 50%;
+  }
+  .unite {
+    display: grid;
+    width: 40%;
+  }
+  header .nav2 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
